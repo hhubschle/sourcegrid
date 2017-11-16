@@ -292,7 +292,7 @@ namespace SourceGrid
                 for (int c = 0; c < nc; ++c)
                 {
                     builder.Append(values[r, c]);
-                    if (c != nr - 1)
+                    if (c != nc - 1)
                         builder.Append('\t');
                 }
 
